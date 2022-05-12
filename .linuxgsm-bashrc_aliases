@@ -1,0 +1,14 @@
+# LinuxGSM Bashrc
+EXECUTABLE=$USER # Change this to your executable's name, if you are using another username for your game server than your executable's. By default, this is set to the user variable.
+alias st='/home/$USER/$EXECUTABLE st'
+alias sp='/home/$USER/$EXECUTABLE sp'
+alias r='/home/$USER/$EXECUTABLE r'
+alias c='/home/$USER/$EXECUTABLE c'
+alias m='/home/$USER/$EXECUTABLE m'
+alias u='/home/$USER/$EXECUTABLE u'
+alias ul='/home/$USER/$EXECUTABLE ul'
+alias sd='/home/$USER/$EXECUTABLE sd '
+alias dt='/home/$USER/$EXECUTABLE dt'
+alias ta='/home/$USER/$EXECUTABLE ta'
+alias b='/home/$USER/$EXECUTABLE b'
+alias showlinuxgsmaliases='cat ~/.linuxgsm-bashrc_aliases'
