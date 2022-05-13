@@ -6,7 +6,7 @@ if [ -f ~/.linuxgsm-bashrc_aliases ]; then
 else
         RED='\033[0;31m'
         NC='\033[0m'
-        echo -e "${RED}~/.linuxgsm-bashrc_aliases does not exist. Please get this file from GitHub (https://github.com/ProjectSegfault/linuxgsm-bsahrc).${NC}"
+        echo -e "${RED}~/.linuxgsm-bashrc_aliases does not exist. Please get this file from GitHub (https://github.com/ProjectSegfault/linuxgsm-bashrc).${NC}"
 fi
 # If not running interactively, don't do anything
 case $- in
